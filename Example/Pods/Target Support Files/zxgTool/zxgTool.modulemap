@@ -1,0 +1,6 @@
+framework module zxgTool {
+  umbrella header "zxgTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

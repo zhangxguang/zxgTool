@@ -1,0 +1,6 @@
+framework module Pods_zxgTool_Example {
+  umbrella header "Pods-zxgTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

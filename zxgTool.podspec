@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/10570545/zxgTool'
+  s.homepage         = 'https://github.com/zhangxguang/zxgTool.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '10570545' => '326598341@qq.com' }
-  s.source           = { :git => 'https://github.com/10570545/zxgTool.git', :tag => s.version.to_s }
+  s.author           = { 'zxg' => '326598341@qq.com' }
+  s.source           = { :git => 'https://github.com/zhangxguang/zxgTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'zxgTool/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'zxgTool' => ['zxgTool/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'zxgTool' => ['zxgTool/Assets/*.png']
+#   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'MapKit'
+   s.dependency 'AFNetworking', '~> 2.3'
 end

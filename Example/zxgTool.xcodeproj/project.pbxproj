@@ -62,11 +62,11 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D6093E745522DAC3C990494 /* Pods-zxgTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zxgTool_Example.release.xcconfig"; path = "Target Support Files/Pods-zxgTool_Example/Pods-zxgTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BB3F7DC6760BFC53E14B7EB1 /* Pods_zxgTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zxgTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA88901CCA18B2FABD88DB8D /* zxgTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = zxgTool.podspec; path = ../zxgTool.podspec; sourceTree = "<group>"; };
+		CA88901CCA18B2FABD88DB8D /* zxgTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = zxgTool.podspec; path = ../zxgTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D5B2DA2820DC5BB38D743771 /* Pods_zxgTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zxgTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCB2A4E119C2604007B28788 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DCB2A4E119C2604007B28788 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DEAEB2E28926A92AE8CD557D /* Pods-zxgTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zxgTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-zxgTool_Tests/Pods-zxgTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F9422586E641BC7DB2549412 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F9422586E641BC7DB2549412 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				DEAEB2E28926A92AE8CD557D /* Pods-zxgTool_Tests.debug.xcconfig */,
 				3B3D33F6D699711A359C83D4 /* Pods-zxgTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
