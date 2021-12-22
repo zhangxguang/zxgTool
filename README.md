@@ -22,7 +22,7 @@ pod 'zxgTool'
 
 ## Author
 
-10570545, 326598341@qq.com
+zxg, 326598341@qq.com
 
 ## License
 
